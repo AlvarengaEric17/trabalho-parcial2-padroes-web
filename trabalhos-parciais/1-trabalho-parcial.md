@@ -13,7 +13,6 @@ O objetivo é praticar:
 - criação e configuração de entidades JPA;
 - definição de atributos;
 - utilização de `@Entity`;
-- utilização de `@Table`;
 - definição de chave primária;
 - geração automática de identificadores;
 - utilização de `@ManyToOne`;
