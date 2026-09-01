@@ -1,4 +1,4 @@
-# 1º Trabalho Parcial — Sistema de Eventos
+# 2º Trabalho Parcial — Sistema de Eventos
 
 ## 🎯 Objetivo
 
