@@ -80,17 +80,16 @@ A entidade `Pedido` deverá possuir os seguintes atributos:
 |---|---|
 | `id` | `Integer` |
 | `data` | `LocalDateTime` |
-| `status` | `StatusPedido` |
+| `status` | `String` |
 | `valorTotal` | `BigDecimal` |
 | `cliente` | `Cliente` |
-| `pagamento` | `Pagamento` |
 
 ### Relacionamentos
 
 Um pedido:
 
 - pertence a um cliente;
-- possui um pagamento.
+  
 
 Os relacionamentos deverão ser configurados utilizando as anotações JPA apresentadas em aula.
 
@@ -128,8 +127,8 @@ A entidade `Pagamento` deverá possuir os seguintes atributos:
 | `id` | `Integer` |
 | `valor` | `BigDecimal` |
 | `data` | `LocalDateTime` |
-| `status` | `StatusPagamento` |
-| `tipo` | `TipoPagamento` |
+| `status` | `String` |
+| `tipo` | `String` |
 | `pedido` | `Pedido` |
 
 ### Relacionamento
